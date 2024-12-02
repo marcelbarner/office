@@ -4,9 +4,6 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net9.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
     <IsAspireHost>true</IsAspireHost>
     <UserSecretsId>db3319f9-9376-4858-959f-a1268aced809</UserSecretsId>
   </PropertyGroup>
@@ -17,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClientApi\Source\ClientApi.csproj" />
+    <ProjectReference Include="..\ClientApi\ClientApi.csproj" />
   </ItemGroup>
 
 </Project>
